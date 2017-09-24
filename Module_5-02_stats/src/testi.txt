@@ -1,0 +1,6 @@
+yksi kaksi kolme
+neljä
+viisi kuusi
+
+
+c=='\t' || c==' ' || c=='\n'

@@ -1,0 +1,47 @@
+==10182== Memcheck, a memory error detector
+==10182== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==10182== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==10182== Command: ./test/test
+==10182== Parent PID: 3984
+==10182== 
+==10185== 
+==10185== HEAP SUMMARY:
+==10185==     in use at exit: 2,012 bytes in 45 blocks
+==10185==   total heap usage: 81 allocs, 36 frees, 25,377 bytes allocated
+==10185== 
+==10185== LEAK SUMMARY:
+==10185==    definitely lost: 0 bytes in 0 blocks
+==10185==    indirectly lost: 0 bytes in 0 blocks
+==10185==      possibly lost: 0 bytes in 0 blocks
+==10185==    still reachable: 2,012 bytes in 45 blocks
+==10185==         suppressed: 0 bytes in 0 blocks
+==10185== Reachable blocks (those to which a pointer was found) are not shown.
+==10185== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10185== 
+==10185== For counts of detected and suppressed errors, rerun with: -v
+==10185== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==10186== 
+==10186== HEAP SUMMARY:
+==10186==     in use at exit: 2,089 bytes in 48 blocks
+==10186==   total heap usage: 92 allocs, 44 frees, 38,474 bytes allocated
+==10186== 
+==10186== LEAK SUMMARY:
+==10186==    definitely lost: 0 bytes in 0 blocks
+==10186==    indirectly lost: 0 bytes in 0 blocks
+==10186==      possibly lost: 0 bytes in 0 blocks
+==10186==    still reachable: 2,089 bytes in 48 blocks
+==10186==         suppressed: 0 bytes in 0 blocks
+==10186== Reachable blocks (those to which a pointer was found) are not shown.
+==10186== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==10186== 
+==10186== For counts of detected and suppressed errors, rerun with: -v
+==10186== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==10182== 
+==10182== HEAP SUMMARY:
+==10182==     in use at exit: 0 bytes in 0 blocks
+==10182==   total heap usage: 87 allocs, 87 frees, 47,451 bytes allocated
+==10182== 
+==10182== All heap blocks were freed -- no leaks are possible
+==10182== 
+==10182== For counts of detected and suppressed errors, rerun with: -v
+==10182== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

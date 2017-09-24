@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2016-08-03 12:06:35</datetime>
+  <suite>
+    <title>Test-02_life</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:9</fn>
+      <id>test_createField</id>
+      <iteration>0</iteration>
+      <duration>0.011879</duration>
+      <description>test_createField</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:51</fn>
+      <id>test_initField</id>
+      <iteration>0</iteration>
+      <duration>0.012527</duration>
+      <description>test_initField</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:172</fn>
+      <id>test_printField</id>
+      <iteration>0</iteration>
+      <duration>0.022015</duration>
+      <description>test_printField</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:193</fn>
+      <id>test_tick</id>
+      <iteration>0</iteration>
+      <duration>0.028746</duration>
+      <description>test_tick</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.358560</duration>
+</testsuites>

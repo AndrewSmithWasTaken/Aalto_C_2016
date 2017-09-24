@@ -1,0 +1,110 @@
+==21843== Memcheck, a memory error detector
+==21843== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==21843== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==21843== Command: ./test/test
+==21843== Parent PID: 12423
+==21843== 
+==21847== Conditional jump or move depends on uninitialised value(s)
+==21847==    at 0x57B9C80: vfprintf (vfprintf.c:1632)
+==21847==    by 0x57C0848: printf (printf.c:33)
+==21847==    by 0x4031E0: es_print (source.c:20)
+==21847==    by 0x401DD0: test_es_print (test_source.c:25)
+==21847==    by 0x4070B2: srunner_run (in /home/andrew/NetBeansProjects/2016-aalto-c/Module_2-07_altstring/test/test)
+==21847==    by 0x402AF9: tmc_run_tests (tmc-check.c:122)
+==21847==    by 0x4027B4: main (test_source.c:158)
+==21847==  Uninitialised value was created by a stack allocation
+==21847==    at 0x403153: es_print (source.c:9)
+==21847== 
+==21847== Conditional jump or move depends on uninitialised value(s)
+==21847==    at 0x57B9C80: vfprintf (vfprintf.c:1632)
+==21847==    by 0x57C0848: printf (printf.c:33)
+==21847==    by 0x4031E0: es_print (source.c:20)
+==21847==    by 0x401ED6: test_es_print (test_source.c:42)
+==21847==    by 0x4070B2: srunner_run (in /home/andrew/NetBeansProjects/2016-aalto-c/Module_2-07_altstring/test/test)
+==21847==    by 0x402AF9: tmc_run_tests (tmc-check.c:122)
+==21847==    by 0x4027B4: main (test_source.c:158)
+==21847==  Uninitialised value was created by a stack allocation
+==21847==    at 0x403153: es_print (source.c:9)
+==21847== 
+==21847== 
+==21847== HEAP SUMMARY:
+==21847==     in use at exit: 3,756 bytes in 77 blocks
+==21847==   total heap usage: 108 allocs, 31 frees, 43,322 bytes allocated
+==21847== 
+==21847== LEAK SUMMARY:
+==21847==    definitely lost: 0 bytes in 0 blocks
+==21847==    indirectly lost: 0 bytes in 0 blocks
+==21847==      possibly lost: 0 bytes in 0 blocks
+==21847==    still reachable: 3,756 bytes in 77 blocks
+==21847==         suppressed: 0 bytes in 0 blocks
+==21847== Reachable blocks (those to which a pointer was found) are not shown.
+==21847== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==21847== 
+==21847== For counts of detected and suppressed errors, rerun with: -v
+==21847== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==21848== 
+==21848== HEAP SUMMARY:
+==21848==     in use at exit: 2,729 bytes in 78 blocks
+==21848==   total heap usage: 117 allocs, 39 frees, 38,987 bytes allocated
+==21848== 
+==21848== LEAK SUMMARY:
+==21848==    definitely lost: 0 bytes in 0 blocks
+==21848==    indirectly lost: 0 bytes in 0 blocks
+==21848==      possibly lost: 0 bytes in 0 blocks
+==21848==    still reachable: 2,729 bytes in 78 blocks
+==21848==         suppressed: 0 bytes in 0 blocks
+==21848== Reachable blocks (those to which a pointer was found) are not shown.
+==21848== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==21848== 
+==21848== For counts of detected and suppressed errors, rerun with: -v
+==21848== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==21849== 
+==21849== HEAP SUMMARY:
+==21849==     in use at exit: 2,814 bytes in 81 blocks
+==21849==   total heap usage: 137 allocs, 56 frees, 52,234 bytes allocated
+==21849== 
+==21849== LEAK SUMMARY:
+==21849==    definitely lost: 0 bytes in 0 blocks
+==21849==    indirectly lost: 0 bytes in 0 blocks
+==21849==      possibly lost: 0 bytes in 0 blocks
+==21849==    still reachable: 2,814 bytes in 81 blocks
+==21849==         suppressed: 0 bytes in 0 blocks
+==21849== Reachable blocks (those to which a pointer was found) are not shown.
+==21849== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==21849== 
+==21849== For counts of detected and suppressed errors, rerun with: -v
+==21849== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==21850== Conditional jump or move depends on uninitialised value(s)
+==21850==    at 0x403323: es_token (source.c:75)
+==21850==    by 0x4024D7: test_es_token (test_source.c:124)
+==21850==    by 0x4070B2: srunner_run (in /home/andrew/NetBeansProjects/2016-aalto-c/Module_2-07_altstring/test/test)
+==21850==    by 0x402AF9: tmc_run_tests (tmc-check.c:122)
+==21850==    by 0x4027B4: main (test_source.c:158)
+==21850==  Uninitialised value was created by a stack allocation
+==21850==    at 0x4032A8: es_token (source.c:64)
+==21850== 
+==21850== 
+==21850== HEAP SUMMARY:
+==21850==     in use at exit: 2,907 bytes in 84 blocks
+==21850==   total heap usage: 157 allocs, 73 frees, 65,475 bytes allocated
+==21850== 
+==21850== LEAK SUMMARY:
+==21850==    definitely lost: 0 bytes in 0 blocks
+==21850==    indirectly lost: 0 bytes in 0 blocks
+==21850==      possibly lost: 0 bytes in 0 blocks
+==21850==    still reachable: 2,907 bytes in 84 blocks
+==21850==         suppressed: 0 bytes in 0 blocks
+==21850== Reachable blocks (those to which a pointer was found) are not shown.
+==21850== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==21850== 
+==21850== For counts of detected and suppressed errors, rerun with: -v
+==21850== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==21843== 
+==21843== HEAP SUMMARY:
+==21843==     in use at exit: 0 bytes in 0 blocks
+==21843==   total heap usage: 167 allocs, 167 frees, 74,869 bytes allocated
+==21843== 
+==21843== All heap blocks were freed -- no leaks are possible
+==21843== 
+==21843== For counts of detected and suppressed errors, rerun with: -v
+==21843== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,0 +1,79 @@
+==12638== Memcheck, a memory error detector
+==12638== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==12638== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==12638== Command: ./test/test
+==12638== Parent PID: 5564
+==12638== 
+==12641== 
+==12641== HEAP SUMMARY:
+==12641==     in use at exit: 2,652 bytes in 75 blocks
+==12641==   total heap usage: 250 allocs, 175 frees, 65,276 bytes allocated
+==12641== 
+==12641== LEAK SUMMARY:
+==12641==    definitely lost: 0 bytes in 0 blocks
+==12641==    indirectly lost: 0 bytes in 0 blocks
+==12641==      possibly lost: 0 bytes in 0 blocks
+==12641==    still reachable: 2,652 bytes in 75 blocks
+==12641==         suppressed: 0 bytes in 0 blocks
+==12641== Reachable blocks (those to which a pointer was found) are not shown.
+==12641== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12641== 
+==12641== For counts of detected and suppressed errors, rerun with: -v
+==12641== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==12642== 
+==12642== HEAP SUMMARY:
+==12642==     in use at exit: 2,729 bytes in 78 blocks
+==12642==   total heap usage: 159 allocs, 81 frees, 43,545 bytes allocated
+==12642== 
+==12642== LEAK SUMMARY:
+==12642==    definitely lost: 0 bytes in 0 blocks
+==12642==    indirectly lost: 0 bytes in 0 blocks
+==12642==      possibly lost: 0 bytes in 0 blocks
+==12642==    still reachable: 2,729 bytes in 78 blocks
+==12642==         suppressed: 0 bytes in 0 blocks
+==12642== Reachable blocks (those to which a pointer was found) are not shown.
+==12642== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12642== 
+==12642== For counts of detected and suppressed errors, rerun with: -v
+==12642== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==12643== 
+==12643== HEAP SUMMARY:
+==12643==     in use at exit: 2,814 bytes in 81 blocks
+==12643==   total heap usage: 161 allocs, 80 frees, 87,726 bytes allocated
+==12643== 
+==12643== LEAK SUMMARY:
+==12643==    definitely lost: 0 bytes in 0 blocks
+==12643==    indirectly lost: 0 bytes in 0 blocks
+==12643==      possibly lost: 0 bytes in 0 blocks
+==12643==    still reachable: 2,814 bytes in 81 blocks
+==12643==         suppressed: 0 bytes in 0 blocks
+==12643== Reachable blocks (those to which a pointer was found) are not shown.
+==12643== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12643== 
+==12643== For counts of detected and suppressed errors, rerun with: -v
+==12643== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==12644== 
+==12644== HEAP SUMMARY:
+==12644==     in use at exit: 2,907 bytes in 84 blocks
+==12644==   total heap usage: 167 allocs, 83 frees, 83,367 bytes allocated
+==12644== 
+==12644== LEAK SUMMARY:
+==12644==    definitely lost: 0 bytes in 0 blocks
+==12644==    indirectly lost: 0 bytes in 0 blocks
+==12644==      possibly lost: 0 bytes in 0 blocks
+==12644==    still reachable: 2,907 bytes in 84 blocks
+==12644==         suppressed: 0 bytes in 0 blocks
+==12644== Reachable blocks (those to which a pointer was found) are not shown.
+==12644== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==12644== 
+==12644== For counts of detected and suppressed errors, rerun with: -v
+==12644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==12638== 
+==12638== HEAP SUMMARY:
+==12638==     in use at exit: 0 bytes in 0 blocks
+==12638==   total heap usage: 143 allocs, 143 frees, 74,533 bytes allocated
+==12638== 
+==12638== All heap blocks were freed -- no leaks are possible
+==12638== 
+==12638== For counts of detected and suppressed errors, rerun with: -v
+==12638== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

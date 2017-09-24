@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2016-07-29 15:09:55</datetime>
+  <suite>
+    <title>Test-03_join</title>
+    <test result="success">
+      <path>.</path>
+      <fn>test_source.c:15</fn>
+      <id>test_join_arrays</id>
+      <iteration>0</iteration>
+      <duration>0.014318</duration>
+      <description>test_join_arrays</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.168702</duration>
+</testsuites>

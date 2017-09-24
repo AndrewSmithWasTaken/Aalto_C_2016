@@ -1,0 +1,9 @@
+Trump 1
+Cruz 1
+Trump 2
+Sanders 1
+Sanders 2
+Clinton 1
+Trump 3
+Clinton 2
+Trump 4
